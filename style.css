@@ -1,0 +1,78 @@
+body {
+	background-color: rgb(230, 230, 230, 1.0);
+	color: black;
+
+}
+	 h1{
+	 	color: darkred;
+	 	font-family: Playfair Display;
+
+	 	font-weight: 300;
+
+	 	letter-spacing: 2px;
+	 	font-size: 80px;
+
+	 }
+	 h2{
+	 	color: darkred;
+	 	font-family: helvetia;
+	 	font-weight: 100;
+
+	 	letter-spacing: 1px;
+	 	font-size: 40px;
+
+	 }
+	 a{
+	 	text-decoration: none;
+	 	color: darkred;
+	 }
+	 a:hover {
+	 	color: darkorange;
+	 }
+
+	 /*custome desingn whith class*/
+
+	 .container {
+	 	width: 700px;
+    margin: 10px auto;
+	 }
+
+	 .box-white{
+	 	background-color: white;
+	 	padding: 25px;
+	 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	 	border-radius: 10px;
+	 	margin: 25px 0px;
+	 	text-align: justify;
+	 	text-align: center;
+	 }
+
+	 .img-circle{
+	 	border-radius: 50%;
+	 	font-size: 40px;
+	 }
+
+	 .btn-blue{
+	 	background-color: darkred;
+	 	color: grey;
+	 	padding: auto;
+	 	border-radius: 4px;
+	 	font-size: 30px;
+
+	 }
+	 .btn-blue:hover{
+	 		background-color: black; 
+	 	color: grey;
+	 }
+	 .list-inline{
+	 	list-style: none;
+	 	padding-left: 0px;
+	 }
+	 .list-inline li {
+	 	display: inline;
+	 	padding: 10px;
+	 }
+     i{
+     	font-size: 30px;
+
+     }
